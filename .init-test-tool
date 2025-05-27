@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/layoutlab-interactive-css-grid--flexbox-explorer-18301-a3e68bb2/layoutlab_explorer"
+}
