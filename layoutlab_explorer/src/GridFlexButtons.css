@@ -35,3 +35,12 @@
   border-color: #F6E05E;
   box-shadow: 0 3px 15px 0 rgba(79, 209, 197, 0.17);
 }
+
+.gridflex-btn.active,
+.gridflex-btn.active:focus {
+  background: #4FD1C5;
+  color: #2D3748;
+  border-color: #F6E05E;
+  box-shadow: 0 3px 15px 0 rgba(246,224,94,0.12);
+  cursor: default;
+}
