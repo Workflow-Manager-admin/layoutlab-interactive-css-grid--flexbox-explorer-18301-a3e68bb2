@@ -41,5 +41,4 @@ function App() {
   );
 }
 
-import GridFlexButtons from "./GridFlexButtons";
 export default App;
