@@ -1,0 +1,37 @@
+.gridflex-btn-group {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin: 32px 0;
+}
+
+.gridflex-btn {
+  background: #2D3748;
+  color: #F6E05E;
+  border: 2px solid #4FD1C5;
+  border-radius: 6px;
+  padding: 12px 30px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 10px 0 rgba(44, 49, 73, 0.10);
+  transition: 
+    background 0.19s,
+    color 0.19s,
+    box-shadow 0.2s,
+    border 0.2s;
+}
+
+.gridflex-btn:focus {
+  outline: none;
+  border-color: #F6E05E;
+  color: #2D3748;
+  background: #4FD1C5;
+}
+
+.gridflex-btn:hover {
+  background: #4FD1C5;
+  color: #2D3748;
+  border-color: #F6E05E;
+  box-shadow: 0 3px 15px 0 rgba(79, 209, 197, 0.17);
+}
