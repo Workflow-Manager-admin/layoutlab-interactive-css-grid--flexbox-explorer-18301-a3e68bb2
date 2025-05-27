@@ -26,7 +26,13 @@ function App() {
               Start building your application.
             </div>
             
-            <button className="btn btn-large">Button</button>
+            {/* Import and use the new GridFlexButtons component */}
+            {/* PUBLIC_INTERFACE */}
+            {/* The onGridClick/onFlexBoxClick props can be no-ops or have logic added later as needed */}
+            <GridFlexButtons
+              onGridClick={() => {}}
+              onFlexBoxClick={() => {}}
+            />
           </div>
         </div>
       </main>
@@ -34,4 +40,5 @@ function App() {
   );
 }
 
+import GridFlexButtons from "./GridFlexButtons";
 export default App;
